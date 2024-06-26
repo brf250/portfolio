@@ -8,6 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root{
+  scrollbar-color:   #18d26e rgba(28, 28, 28, 0.8);
+  scrollbar-width: thin;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #000000;
@@ -793,6 +798,8 @@ section .container {
   top: 0;
   bottom: 0;
   overflow-y: auto;
+  scrollbar-color:   #18d26e rgba(28, 28, 28, 0.8);
+  scrollbar-width: thin;
 }
 
 .portfolio-details .container {
